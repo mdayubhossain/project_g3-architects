@@ -1,0 +1,397 @@
+/*common css start*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+  object-fit: cover;
+  width: 100%;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*common css end*/
+
+/*--------------header part css----------------*/
+header {
+  background-color: #fff4e7;
+}
+header .header_nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.header_nav .header_logo a {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 53px;
+  color: #131313;
+  cursor: pointer;
+  width: 302px;
+  height: 53px;
+}
+.header_option {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header_option li {
+  margin-left: 10px;
+}
+.header_option li a {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #424242;
+  transition: 0.2s all linear;
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  -ms-transition: 0.2s all linear;
+  -o-transition: 0.2s all linear;
+}
+.header_option li a:hover {
+  color: #ff900e;
+}
+.header_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header_head h2 {
+  width: 862px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  color: #131313;
+  padding: 30px 0;
+}
+.header_head p {
+  width: 733px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  text-align: center;
+  margin-top: 0;
+}
+.explore_more {
+  margin: 30px 0;
+  border: none;
+  background-color: #ff900e;
+  padding: 20px 25px;
+  border-radius: 5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.4s all linear;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.4s all linear;
+  -moz-transition: 0.4s all linear;
+  -ms-transition: 0.4s all linear;
+  -o-transition: 0.4s all linear;
+}
+.explore_more:hover {
+  background-color: rgba(0, 0, 0, 0.61);
+  color: #ffffff;
+}
+.banner {
+  padding-bottom: 20px;
+}
+
+.animation {
+  position: relative;
+  color: #fff;
+  background: transparent;
+  overflow: hidden;
+  border-top: 3px solid rgba(255, 49, 49, 0.769);
+  border-right: 3px solid rgba(0, 255, 255, 0.603);
+  border-bottom: 3px solid rgba(55, 255, 20, 0.59);
+  border-left: 3px solid rgba(255, 255, 113, 0.686);
+  font-family: "Work Sans";
+  padding: 8px;
+}
+
+/*-------------main part css start---------*/
+
+/*features part css*/
+#features {
+  padding: 80px 0;
+}
+.features_main {
+  display: flex;
+  justify-content: space-between;
+}
+.features_main .features_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.features_gallery img {
+  width: 342px;
+  height: 342px;
+  border-radius: 8px;
+  margin: 3px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.features_main .features_content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.features_main .features_content h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #727272;
+  text-align: left;
+}
+.features_main .features_content .h_b {
+  color: #131313;
+}
+.features_main .features_content .h_o {
+  color: #ff900e;
+  display: block;
+}
+.features_main .features_content p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  width: 441px;
+  text-align: left;
+}
+.features_main .features_content .explore_more {
+  width: 180px;
+}
+/*features_love_enjoy  part css*/
+#features_love_enjoy {
+  padding-bottom: 80px;
+}
+.features_love_enjoy_main {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.experiance {
+  position: absolute;
+  bottom: -50px;
+  left: 35%;
+  padding: 8px 50px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #ff900e;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.experiance span {
+  margin-top: -25px;
+  font-size: 25px;
+  display: block;
+}
+.features_l_e_content .c_head h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #131313;
+  position: relative;
+}
+.features_l_e_content .c_head h3::after {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -12px;
+  height: 95px;
+  width: 5px;
+  background-color: #ff900e;
+}
+.features_l_e_content .c_head p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  width: 524px;
+  padding: 10px 0 50px 0;
+}
+.features_l_e_content .c_bodey .item {
+  padding: 25px 0;
+}
+
+.features_l_e_content .c_bodey .item h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+}
+.features_l_e_content .c_bodey .item p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  width: 424px;
+  padding-top: 15px;
+}
+/*some facts css*/
+/* #some_fact {
+  padding-bottom: 80px;
+} */
+.some_fact h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+.some_fact p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  width: 466px;
+}
+/*recordory part css*/
+#recodory {
+  padding: 100px 0;
+}
+.main_recordory {
+  display: flex;
+  justify-content: space-between;
+}
+.main_recordory .item_recordory {
+  text-align: center;
+  background: transparent;
+  border: 1px solid #ff900e;
+  padding: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.main_recordory .item_recordory h5 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+  padding-top: 5px;
+}
+.main_recordory .item_recordory p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+}
+.main_recordory .item_recordory img {
+  height: 50px;
+  width: 50px;
+}
+
+/*sponsor part css start*/
+#sponsor {
+  padding: 0 0 80px 0;
+}
+.sponsor_main .sponsor_intro {
+  text-align: center;
+}
+.sponsor_main .sponsor_intro h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+.sponsor_main .sponsor_intro p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 466px;
+  color: #727272;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.sponsor_main .sponsor_patner {
+  display: flex;
+  justify-content: space-between;
+}
+.sponsor_main .sponsor_patner .item {
+}
+/*footer part css start*/
+footer {
+  padding-bottom: 150px;
+}
+.footer {
+  text-align: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #424242;
+  padding: 20px;
+  background-color: #fff4e7;
+}
